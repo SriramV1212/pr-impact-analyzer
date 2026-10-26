@@ -1,0 +1,34 @@
+# Private project files (never public)
+CLAUDE.md
+DEPLOY.md
+notes/
+private/
+
+# Secrets and environment
+.env
+.env.*
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.hypothesis/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Coverage output
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Validation harness: cloned third-party repos
+validation/work/
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
